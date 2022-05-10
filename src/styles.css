@@ -1,0 +1,65 @@
+@font-face {
+  font-family: "Helvetica";
+  src: url("https://www.nba.com/resources/static/team/v2/nets/fonts/TeX-Gyre-Heros/texgyreheros-regular-webfont.eot");
+  src: url("https://www.nba.com/resources/static/team/v2/nets/fonts/TeX-Gyre-Heros/texgyreheros-regular-webfont.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://www.nba.com/resources/static/team/v2/nets/fonts/TeX-Gyre-Heros/texgyreheros-regular-webfont.woff")
+      format("woff"),
+    url("https://www.nba.com/resources/static/team/v2/nets/fonts/TeX-Gyre-Heros/texgyreheros-regular-webfont.ttf")
+      format("truetype"),
+    url("https://www.nba.com/resources/static/team/v2/nets/fonts/TeX-Gyre-Heros/texgyreheros-regular-webfont.svg#tex_gyre_herosregular")
+      format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Helvetica-Bold";
+  src: url("https://www.nba.com/resources/static/team/v2/nets/fonts/TeX-Gyre-Heros/texgyreheros-bold-webfont.eot");
+  src: url("https://www.nba.com/resources/static/team/v2/nets/fonts/TeX-Gyre-Heros/texgyreheros-bold-webfont.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://www.nba.com/resources/static/team/v2/nets/fonts/TeX-Gyre-Heros/texgyreheros-bold-webfont.woff")
+      format("woff"),
+    url("https://www.nba.com/resources/static/team/v2/nets/fonts/TeX-Gyre-Heros/texgyreheros-bold-webfont.ttf")
+      format("truetype"),
+    url("https://www.nba.com/resources/static/team/v2/nets/fonts/TeX-Gyre-Heros/texgyreheros-bold-webfont.svg#tex_gyre_herosbold")
+      format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Integral CF Extra Bold";
+  src: local("Integral CF Extra Bold"), local("Integral-CF-Extra-Bold"),
+    url("https://www.nba.com/resources/static/team/v2/nets/fonts/IntegralCF/IntegralCF-ExtraBold.woff2")
+      format("woff2"),
+    url("https://www.nba.com/resources/static/team/v2/nets/fonts/IntegralCF/IntegralCF-ExtraBold.woff")
+      format("woff"),
+    url("https://www.nba.com/resources/static/team/v2/nets/fonts/IntegralCF/IntegralCF-ExtraBold.ttf")
+      format("truetype");
+  font-weight: 800;
+  font-style: normal;
+}
+
+.teaser_featured {
+  font-size: 0.75 rem;
+}
+.card-image{
+    width
+}
+/*
+FONTS
+
+Headers: Integral CF Extra Bold
+Content Titles: Helvetica-Bold
+Description: Helvetica
+
+COLORS
+
+Black: #000000
+White: #FFFFFF
+Dark GreyL #222222
+
+Optional:  #00aeef;
+
+*/
