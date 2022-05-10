@@ -1,3 +1,8 @@
+.hero__banner--content {
+  margin: 100px;
+}
+
+
 @font-face {
   font-family: "Helvetica";
   src: url("https://www.nba.com/resources/static/team/v2/nets/fonts/TeX-Gyre-Heros/texgyreheros-regular-webfont.eot");
@@ -41,12 +46,7 @@
   font-style: normal;
 }
 
-.teaser_featured {
-  font-size: 0.75 rem;
-}
-.card-image{
-    width
-}
+
 /*
 FONTS
 
