@@ -10,81 +10,229 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
     <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css" />
     <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css" />
+    <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            console.log("document loaded");
+        });
+        $(function() {
+            console.log("ready!");
+        });
+    </script>
     <title>Brooklyn Nets | The Official Sample site</title>
 </head>
 
 <body>
-    <div class="hero__banner--teaser mb-5">
-        <div class="row">
-            <div class="col-4 text-white" style="background-color: black">
-                <div class="text-center" style="padding: 50% 20%">
-                    <div class="hero__banner--eyebrow text-uppercase" style="margin-bottom: 1rem">
-                        featured
-                    </div>
-                    <div class="hero__banner--heading font-weight-bold" style="font-size: 2.5rem; line-height: 1; margin-bottom: 1rem">
-                        Lorem ipsum dolor sit amet.
-                    </div>
-                    <div class="mb-4" style="font-size: 1.25rem">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat nemo dolore, error aliquam voluptate cupiditate?
-                    </div>
-                    <div class="text-center">
-                        <button class="btn text-uppercase font-weight-bold px-4">
+    <div id="newsAndMedia">
+        <h2 class="section__heading" style="font-size: 3rem;">News and Media</h2>
+        <div class="hero__banner--teaser mb-5">
+            <div class="row">
+                <div class="col-4 text-white" style="background-color: black">
+                    <div class="text-center" style="padding: 50% 20%">
+                        <div class="hero__banner--eyebrow text-uppercase" style="margin-bottom: 1rem">
+                            featured
+                        </div>
+                        <div class="hero__banner--heading font-weight-bold" style="font-size: 2.5rem; line-height: 1; margin-bottom: 1rem">
+                            Lorem ipsum dolor sit amet.
+                        </div>
+                        <div class="mb-4" style="font-size: 1.25rem">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat nemo dolore, error aliquam voluptate cupiditate?
+                        </div>
+                        <div class="text-center">
+                            <button class="btn text-uppercase font-weight-bold px-4">
                 read more
               </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-8 p-0">
+                    <img class="h-100" src="https://www.nba.com/nets/sites/nets/files/photo-jan-19-9-00-03-pm.jpg? " alt="Kyle Kuzma blocking LaMarcus Aldridge " />
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row mb-4">
+                <div class="col-3">
+                    <div class="card__news--grid">
+                        <img class="rounded w-100" src="https://www.nba.com/nets/sites/nets/files/photo-jan-19-9-00-03-pm.jpg? " alt="Kyle Kuzma blocking LaMarcus Aldridge " />
+
+                        <div class="card__news--title font-weight-bold mb-4">
+                            Lorem ipsum dolor, sit amet consectetur.
+                        </div>
+                        <div class="card__news--description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, vitae.
+                        </div>
+                        <div class="card__news--author">
+                            <span slot="author" class="font-weight-bold">Jane Doe</span> -
+                            <span slot="date"> January 01, 2022</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card__news--grid">
+                        <img class="rounded w-100" src="https://www.nba.com/nets/sites/nets/files/photo-jan-19-9-00-03-pm.jpg? " alt="Kyle Kuzma blocking LaMarcus Aldridge " />
+
+                        <div class="card__news--title font-weight-bold mb-4">
+                            Lorem ipsum dolor, sit amet consectetur.
+                        </div>
+                        <div class="card__news--description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, vitae.
+                        </div>
+                        <div class="card__news--author">
+                            <span slot="author" class="font-weight-bold">Jane Doe</span> -
+                            <span slot="date"> January 01, 2022</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card__news--grid">
+                        <img class="rounded w-100" src="https://www.nba.com/nets/sites/nets/files/photo-jan-19-9-00-03-pm.jpg? " alt="Kyle Kuzma blocking LaMarcus Aldridge " />
+
+                        <div class="card__news--title font-weight-bold mb-4">
+                            Lorem ipsum dolor, sit amet consectetur.
+                        </div>
+                        <div class="card__news--description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, vitae.
+                        </div>
+                        <div class="card__news--author">
+                            <span slot="author" class="font-weight-bold">Jane Doe</span> -
+                            <span slot="date"> January 01, 2022</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card__news--grid">
+                        <img class="rounded w-100" src="https://www.nba.com/nets/sites/nets/files/photo-jan-19-9-00-03-pm.jpg? " alt="Kyle Kuzma blocking LaMarcus Aldridge " />
+
+                        <div class="card__news--title font-weight-bold mb-4">
+                            Lorem ipsum dolor, sit amet consectetur.
+                        </div>
+                        <div class="card__news--description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, vitae.
+                        </div>
+                        <div class="card__news--author">
+                            <span slot="author" class="font-weight-bold">Jane Doe</span> -
+                            <span slot="date"> January 01, 2022</span>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col-8 p-0">
-                <img class="h-100" src="https://www.nba.com/nets/sites/nets/files/photo-jan-19-9-00-03-pm.jpg? " alt="Kyle Kuzma blocking LaMarcus Aldridge " />
+            <div class="text-center">
+                <button class="btn rounded text-white text-uppercase font-weight-bold px-4 mb-3" style="background-color: black">
+          view more
+        </button>
             </div>
         </div>
     </div>
-    <div class="container">
-        <div class="row mb-4">
-            <div class="col-3">
-                <div class="card__news--grid">
-                    <img class="rounded w-100" src="https://www.nba.com/nets/sites/nets/files/photo-jan-19-9-00-03-pm.jpg? " alt="Kyle Kuzma blocking LaMarcus Aldridge " />
-
-                    <div class="card__news--title font-weight-bold mb-4">Lorem ipsum dolor, sit amet consectetur.</div>
-                    <div class="card__news--description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, vitae.</div>
-                    <div class="card__news--author"><span slot="author" class="font-weight-bold">Jane Doe</span> - <span slot="date"> January 01, 2022</span></div>
+    <div id="latestVideosAndPhotos">
+        <h2 class="text-uppercase font-weight-bold" style="font-size: 3rem;">latest videos and photos</h2>
+        <div class="hero__banner--teaser mb-5">
+            <div class="row">
+                <div class="col-4 text-white" style="background-color: black">
+                    <div class="text-center" style="padding: 50% 20%">
+                        <div class="hero__banner--eyebrow text-uppercase" style="margin-bottom: 1rem">
+                            febuary 1
+                        </div>
+                        <div class="hero__banner--heading font-weight-bold" style="font-size: 2.5rem; line-height: 1; margin-bottom: 1rem">
+                            Lorem ipsum dolor sit amet.
+                        </div>
+                        <div class="mb-4" style="font-size: 1.25rem">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat nemo dolore, error aliquam voluptate cupiditate?
+                        </div>
+                        <div class="text-center">
+                            <button class="btn text-uppercase font-weight-bold px-5">watch</button>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="col-3">
-                <div class="card__news--grid">
-                    <img class="rounded w-100" src="https://www.nba.com/nets/sites/nets/files/photo-jan-19-9-00-03-pm.jpg? " alt="Kyle Kuzma blocking LaMarcus Aldridge " />
-
-                    <div class="card__news--title font-weight-bold mb-4">Lorem ipsum dolor, sit amet consectetur.</div>
-                    <div class="card__news--description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, vitae.</div>
-                    <div class="card__news--author"><span slot="author" class="font-weight-bold">Jane Doe</span> - <span slot="date"> January 01, 2022</span></div>
-                </div>
-            </div>
-            <div class="col-3">
-                <div class="card__news--grid">
-                    <img class="rounded w-100" src="https://www.nba.com/nets/sites/nets/files/photo-jan-19-9-00-03-pm.jpg? " alt="Kyle Kuzma blocking LaMarcus Aldridge " />
-
-                    <div class="card__news--title font-weight-bold mb-4">Lorem ipsum dolor, sit amet consectetur.</div>
-                    <div class="card__news--description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, vitae.</div>
-                    <div class="card__news--author"><span slot="author" class="font-weight-bold">Jane Doe</span> - <span slot="date"> January 01, 2022</span></div>
-                </div>
-            </div>
-            <div class="col-3">
-                <div class="card__news--grid">
-                    <img class="rounded w-100" src="https://www.nba.com/nets/sites/nets/files/photo-jan-19-9-00-03-pm.jpg? " alt="Kyle Kuzma blocking LaMarcus Aldridge " />
-
-                    <div class="card__news--title font-weight-bold mb-4">Lorem ipsum dolor, sit amet consectetur.</div>
-                    <div class="card__news--description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, vitae.</div>
-                    <div class="card__news--author"><span slot="author" class="font-weight-bold">Jane Doe</span> - <span slot="date"> January 01, 2022</span></div>
+                <div class="col-8 p-0">
+                    <img class="h-100" src="https://www.nba.com/nets/sites/nets/files/gettyimages-1237710047.jpg?" alt="Josh Giddey trying to block Kessler Edwards from a 3 point shot" />
                 </div>
             </div>
         </div>
-        <div class="text-center">
-            <button class="btn rounded text-white text-uppercase font-weight-bold px-4" style="background-color: black;">view more</button>
-
+        <div id="videosAndPhots">
+            <div class="owl-carousel">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-3">
+                            <div class="h-25 mx-auto ">
+                                <img class="h-100 rounded" src="https://www.nba.com/nets/sites/nets/files/gettyimages-1237710047.jpg?" alt="Josh Giddey trying to block Kessler Edwards from a 3 point shot" />
+                                <p class="font-weight-bold">Lorem, ipsum dolor.</p>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="h-25 mx-auto">
+                                <img class="h-100 rounded" src="https://www.nba.com/nets/sites/nets/files/gettyimages-1237710047.jpg?" alt="Josh Giddey trying to block Kessler Edwards from a 3 point shot" />
+                                <p class="font-weight-bold">Lorem, ipsum dolor.</p>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="h-25 mx-auto">
+                                <img class="h-100 rounded" src="https://www.nba.com/nets/sites/nets/files/gettyimages-1237710047.jpg?" alt="Josh Giddey trying to block Kessler Edwards from a 3 point shot" />
+                                <p class="font-weight-bold">Lorem, ipsum dolor.</p>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="h-25 mx-auto">
+                                <img class="h-100 rounded" src="https://www.nba.com/nets/sites/nets/files/gettyimages-1237710047.jpg?" alt="Josh Giddey trying to block Kessler Edwards from a 3 point shot" />
+                                <p class="font-weight-bold">Lorem, ipsum dolor.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="gameHighlights">
+            <div class="owl-carousel">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-3">
+                            <div class="h-25 mx-auto ">
+                                <img class="h-100 rounded" src="https://www.nba.com/nets/sites/nets/files/gettyimages-1237710047.jpg?" alt="Josh Giddey trying to block Kessler Edwards from a 3 point shot" />
+                                <p class="font-weight-bold">Lorem, ipsum dolor.</p>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="h-25 mx-auto">
+                                <img class="h-100 rounded" src="https://www.nba.com/nets/sites/nets/files/gettyimages-1237710047.jpg?" alt="Josh Giddey trying to block Kessler Edwards from a 3 point shot" />
+                                <p class="font-weight-bold">Lorem, ipsum dolor.</p>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="h-25 mx-auto">
+                                <img class="h-100 rounded" src="https://www.nba.com/nets/sites/nets/files/gettyimages-1237710047.jpg?" alt="Josh Giddey trying to block Kessler Edwards from a 3 point shot" />
+                                <p class="font-weight-bold">Lorem, ipsum dolor.</p>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="h-25 mx-auto">
+                                <img class="h-100 rounded" src="https://www.nba.com/nets/sites/nets/files/gettyimages-1237710047.jpg?" alt="Josh Giddey trying to block Kessler Edwards from a 3 point shot" />
+                                <p class="font-weight-bold">Lorem, ipsum dolor.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="text-center mb-5">
+            <button class="btn rounded px-5 text-white text-uppercase" style="background-color: black">view all</butotn>
         </div>
     </div>
-
-
+    <div id="instagram" class="w-100 h-100" style="background-color: black;">
+        <h2 class="text-white text-center text-uppercase py-5" style="font-size:3rem">Follow us on <span><i class="fa-brands fa-instagram"><svg xmlns="http://www.w3.org/2000/svg" width="50px" height="50px" padding="-5px" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path  fill="#ffff" d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg></i></span>            instagram</h2>
+        <div id="curator-feed-default-feed-layout"></div>
+        <script type="text/javascript">
+            /* curator-feed-default-feed-layout */
+            (function() {
+                var i, e, d = document,
+                    s = "script";
+                i = d.createElement("script");
+                i.async = 1;
+                i.src = "https://cdn.curator.io/published/90276554-1abb-4030-b0b2-02 c7c87e78c5.js ";
+                e = d.getElementsByTagName(s)[0];
+                e.parentNode.insertBefore(i, e);
+            })();
+        </script>
+    </div>
     <link rel=" stylesheet " media="(prefers-color-scheme:light) " href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.0.0-beta.73/dist/themes/light.css " />
     <!-- <link rel="stylesheet " media="(prefers-color-scheme:dark) " href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.0.0-beta.73/dist/themes/dark.css " onload="document.documentElement.classList.add( ' sl-theme-dark '); " /> -->
     <script type="module " src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.0.0-beta.73/dist/shoelace.js "></script>
